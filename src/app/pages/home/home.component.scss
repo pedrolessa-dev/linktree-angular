@@ -5,7 +5,7 @@
     justify-content: space-between;
     min-height: 100vh;
 
-    background: linear-gradient(300deg,deepskyblue,blue,#307124,#2ca217);
+    background: linear-gradient(300deg, deepskyblue, blue, #307124, #2ca217);
     background-size: 240% 240%;
     animation: gradient-animation 12s ease infinite;
 
@@ -39,6 +39,13 @@
         h1 {
             font-size: 20px;
             font-weight: 700;
+            color: #fefefe;
+            mix-blend-mode: difference;
+        }
+
+        p {
+            color: #fefefe;
+            mix-blend-mode: difference;
         }
     }
 
